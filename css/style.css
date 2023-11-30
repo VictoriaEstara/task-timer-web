@@ -105,14 +105,10 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 1200px) {
-    main {
-        flex-flow: column nowrap;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    main {
-        justify-content: center;
+@media screen and (max-width: 600px) {
+    .input-group,
+    .button-group {
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
