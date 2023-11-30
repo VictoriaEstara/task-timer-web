@@ -34,13 +34,13 @@ body {
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #4caf50;
+    color: #4795fb;;
 }
 
 #timer-display {
     font-size: 3em;
     margin-bottom: 30px;
-    color: #ff9800;
+    color: #F4F27E;
     transition: color 0.5s ease-in-out;
 }
 
@@ -55,7 +55,7 @@ h1 {
     flex: 1;
     text-align: center;
     margin-right: 10px;
-    color: #4caf50;
+    color: #4795fb;
 }
 
 .input-group input {
@@ -82,8 +82,8 @@ button {
     margin: 10px;
     padding: 12px 24px;
     cursor: pointer;
-    background-color: #4caf50;
-    color: #fff;
+    background-color: #3081D0;
+    color: #ffffff;
     border: none;
     border-radius: 6px;
     outline: none;
@@ -92,7 +92,8 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #AED2FF;
+    color: #4795fb;
 }
 
 footer {
@@ -101,11 +102,11 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    color: #888;
+    color: white;
     width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .input-group,
     .button-group {
         flex-direction: row;
