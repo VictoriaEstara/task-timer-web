@@ -107,6 +107,12 @@ footer {
 
 @media screen and (max-width: 1200px) {
     main {
+        flex-flow: column nowrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
         justify-content: center;
     }
 }
