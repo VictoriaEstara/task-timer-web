@@ -104,3 +104,9 @@ footer {
     color: #888;
     width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+    main {
+        justify-content: center;
+    }
+}
