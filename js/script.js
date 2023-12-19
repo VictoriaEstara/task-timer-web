@@ -69,8 +69,6 @@ class CountdownTimer {
         const seconds = this._currentTime % 60;
 
         const formattedHours = hours === 0 ? 12 : hours;
-        console.log('Updated Display:', formattedHours, minutes, seconds);
-
         const formattedTime = this.formatTime(hours, minutes, seconds);
         this._timerDisplay.innerText = formattedTime;
         this.updateDisplayColor();
